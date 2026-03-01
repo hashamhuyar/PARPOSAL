@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ek Zaroori Sawal 💍</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 22px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 30px;
+            margin: 15px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #00ff88;
+            color: black;
+        }
+        .no {
+            background-color: #ff4d4d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>❤️ Ek Zaroori Sawal ❤️</h1>
+    <p>Jab tum ye page kholo gi to ek hi sawal hai...</p>
+    <h2>Kya tum mujhse shadi karogi? 💍</h2>
+
+    <button class="yes" onclick="yesClicked()">Haan ❤️</button>
+    <button class="no" onclick="noClicked()">Nahi 😜</button>
+
+    <script>
+        function yesClicked() {
+            document.body.innerHTML = "<h1>❤️ Mubarak ho! ❤️</h1><p>Ab official proposal accept ho chuka hai 💍🥰</p>";
+        }
+
+        function noClicked() {
+            alert("Soch lo dobara 😄❤️");
+        }
+    </script>
+
+</body>
+  </html>
